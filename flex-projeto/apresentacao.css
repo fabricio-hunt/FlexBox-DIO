@@ -1,0 +1,38 @@
+.apresentacao{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    margin-left:35px ;
+    margin-right: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.apresentacao__titulo{
+  color:var(--cor-principal);
+    font-size: 48px;
+}
+
+.apresentacao__paragrafo{
+    text-align: center;
+}
+
+.apresentacao__botao{
+    background-color: var(--cor-principal);
+    border-radius: 30px;
+    text-decoration: none;
+    height: 50px;
+    width: 220px;
+}
+
+.apresentacao__botao a{
+    color: var(--cor-de-fundo);
+    text-decoration: none;
+}
+
+.apresentacao__botao a:hover{
+    color: orange;
+    font-weight: bold;
+    transition: all  2s;
+}

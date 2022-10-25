@@ -1,0 +1,45 @@
+
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    background-color: #122A57;
+    color:#ffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__titulo{
+    margin-left: 70px;
+}
+
+.menu__lista{
+    display: flex;
+    margin-right: 95px;
+}
+.menu__lista li{
+    list-style: none;
+    display: inline;
+}
+
+.menu__lista li a {
+
+    color: #ffff;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu__lista li a:hover{
+    color: orange;
+    font-weight: bold;
+    transition: all  2s;
+}
